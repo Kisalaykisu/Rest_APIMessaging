@@ -13,7 +13,7 @@ public class RestAPI {
 
     //Use GET Request Method and pass name as query parameter
     @GetMapping("/query")
-    public String getUsers(@RequestParam(value = "name", defaultValue = "Santhosh") String name) {
+    public String getUsers(@RequestParam(value = "name", defaultValue = "Kisalay") String name) {
         return "<h1><font color=blue>Hello! " + name + " From BridgeLabz!!</font></h1>" +
                 "</br> <font color=green>Passing name as a parameter.</font>";
     }
