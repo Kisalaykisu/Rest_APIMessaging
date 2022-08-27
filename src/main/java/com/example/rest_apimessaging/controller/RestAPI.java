@@ -1,6 +1,6 @@
 package com.example.rest_apimessaging.controller;
 
-import com.example.restapis.model.Entity;
+import com.example.rest_apimessaging.model.Entity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
